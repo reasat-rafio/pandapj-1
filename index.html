@@ -4,11 +4,296 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>E-panda</title>
 </head>
 
-<body>
-    <p>project-2</p>
+<body data-spy="scroll" data-target="#navBar">
+
+    <div id="home">
+
+        <!-- nav -->
+
+        <nav class="navbar navbar-expand-lg  fixed-top navbar-light bg-black">
+            <a class="navbar-brand" href="#"><img src="hot-gadgets/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navBar">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link active" href="#home">Home</a>
+                    <a class="nav-item nav-link" href="#products">Products</a>
+                    <a class="nav-item nav-link" href="#catagories">Catagories</a>
+                    <a class="nav-item nav-link " href="#contact">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Carousel -->
+
+        <div class="section-a1">
+            <div id="carouselExampleControls" class="carousel slide orange-bg" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row align-items-center">
+                            <div class="col-md-7">
+                                <h1>MackBook Pro</h1>
+                                <p class="lead">MackBook Pro is a good product to buy for felxxing on your friends and
+                                    make them feel
+                                    how poor they are. </p>
+                                <div class="card-footer">
+                                    <button class="buy-now-button">Buy Now</button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-5">
+
+                                <img src="hot-gadgets/banner-products/product-1.png" alt="...">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-7">
+                                <h1>Cool dude Speaker 2020</h1>
+                                <p class="lead">Wanna look cool and flex on your friends by showing them a headphone
+                                    what cost 420?
+                                    Then
+                                    sir this product is for you. </p>
+                                <div class="card-footer">
+                                    <button class="buy-now-button">Buy Now</button>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+
+                                <img src="hot-gadgets/banner-products/slider-1.png" alt="...">
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-7">
+                                <h1>Flash light for cool dudes</h1>
+                                <p class="lead">feeling lonely because your friends dont play you anymore? No worry ,
+                                    you can play
+                                    way
+                                    more cooler games all by yourself without any of those mofos.</p>
+
+                                <button class="buy-now-button">Buy Now</button>
+                            </div>
+                            <div class="col-md-5">
+
+                                <img src="hot-gadgets/banner-products/slider-3.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Products -->
+
+    <div id="products">
+
+        <div class=" container shoes mt-5">
+            <div class="d-flex p-3">
+                <h3>Smart Phone</h3>
+                <h5 class="details">see all</h5>
+            </div>
+            <div class="card-deck text-center">
+                <div class="card all-card">
+                    <img src="hot-gadgets/phone/phone-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">?</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum quam vero
+                            numquam voluptatem laboriosam est..</p>
+                        <h5>$120</h5>
+                        <div class="card-footer">
+                            <button class="buy-now-button">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card all-card">
+                    <img src="hot-gadgets/phone/phone-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Iphone 11 Pro</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+                            perferendis accusamus repudiandae facilis.
+                        </p>
+                        <h5>$150</h5>
+                        <div class="card-footer">
+                            <button class="buy-now-button">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card all-card">
+                    <img src="hot-gadgets/phone/phone-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Galaxy Note10+</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptatem
+                            odio labore laboriosam magni et!.</p>
+                        <h5>$340</h5>
+                        <div class="card-footer">
+                            <button class="buy-now-button">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="d-flex p-3">
+                <h3>LAPTOP</h3>
+                <h5 class="details">see all</h5>
+            </div>
+
+            <div class="card-deck text-center">
+                <div class="card all-card">
+                    <img src="hot-gadgets/laptop/product-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Asus Vivobook</h5>
+                        <h5>$369</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="buy-now-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card all-card">
+                    <img src="hot-gadgets/laptop/product-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Razer Blade 15</h5>
+                        <h5>$199</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="buy-now-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card all-card">
+                    <img src="hot-gadgets/laptop/product-3.png" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Xiaomi Mi Notebook Pro</h5>
+                        <h5>$299</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height
+                            action.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="buy-now-button">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div id="catagories">
+
+        <div class="col-12">
+            <h3 class="heading">CATAGORIES</h3>
+            <div class="heading-underline"></div>
+        </div>
+
+        <div class="row m-auto container ">
+
+            <div class="col-6 col-lg-2 box">
+                <div class="half-box">
+                    <img class="box1" src="hot-gadgets/Categories/bag.png" alt="">
+                </div>
+            </div>
+            <div class=" col-6 col-lg-2 box">
+                <div class="half-box">
+                    <img class="box2" src="hot-gadgets/Categories/perfume.png" alt="">
+                    <img class="box2" src="hot-gadgets/Categories/shoe.png" alt="">
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-8 rightimg box">
+                <div>
+                    <img src="/hot-gadgets/Categories/pale-order.png" alt="">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- footer -->
+
+    <div id="contact" class="offset">
+
+        <footer>
+            <div class="row justify-content-center">
+
+                <div class="col-md-8 text-center">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sunt adipisci natus
+                        nostrum
+                        repellendus, totam voluptate!</p>
+                    <strong>Contact Section</strong>
+                    <p>912309-8310278-1283<br>email@boxsx.com</p>
+                    <a href="" target="_blank">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="" target="_blank">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                    <a href="" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+
+                <hr class="soket">
+                &copy; Padna theme.
+
+            </div>
+        </footer>
+
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

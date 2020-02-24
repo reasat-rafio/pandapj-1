@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Poppins&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: none;
+}
+
+.navbar {
+  width: 80%;
+  margin: auto;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background-color: rgba(230, 227, 227, 0.6) !important;
+}
+
+.navbar-brand img{
+  height: 2.5rem;
+}
+
+.navbar-nav li {
+  padding-right: .7rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  padding-top: .8rem;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #1ebba3;
+} 
+
+
+/* Carousel */
+
+#carouselExampleControls {
+  width: 75%;
+  margin: auto;
+  height: 700px;
+}
+
+.carousel-item h1 {
+  font-family: 'Bree Serif', ;
+}
+
+.buy-now-button{
+  background-image: linear-gradient(to bottom, #1ebba3 0%, rgb(8, 122, 69) 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 25px;
+  cursor: pointer;
+}
+
+#carouselExampleControls img {
+  width: 100%;
+}
+
+.carousel-inner {
+  margin-top: 4rem;
+}
+
+/*  CARD */
+
+.all-card {
+  border-radius: 20px;
+  transition: 1s ease;
+}
+
+.all-card:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 2px 40px black;
+}
+
+.details {
+  margin-left: auto;
+  color: #1ebba3;
+}
+
+.card {
+ 
+  border: none;
+  box-shadow: 1px 1px 40px rgb(212, 212, 212);
+}
+
+.card-footer {
+  background-color: white;
+  border: none;
+}
+
+/*  */
+
+#catagories {
+  margin-top: 10rem;
+}
+
+
+.heading {
+  text-align: center;
+}
+
+.heading-underline {
+  width: 4rem;
+  height: 0.2rem;
+  background-color: #1ebba3;
+  margin: 0 auto 2rem;
+}
+
+.box1, .box2, .box3 {
+  padding: 4rem 3rem;
+  display: block;
+  box-shadow: 1px 1px 40px rgb(194, 193, 193);
+} 
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.box img {
+  width: 100%;
+}
+
+.box2 {
+  margin-bottom: 1rem;
+}
+
+.box3 {
+  margin-top: 1rem;
+}
+
+/*  */
+
+
+footer {
+  width: 90%;
+  margin: auto;
+  background-color: #a8b9b0a2;
+  color: white;
+  padding: 2rem 0 2rem;
+  margin-top: 2rem;
+}
+
+footer img {
+  height: 3rem;
+  margin: 1.5rem 0; 
+}
+
+footer a{
+  color: white;
+}
+footer svg.svg-inline--fa {
+  font-size: 1.6rem;
+  margin: 1.2rem .5rem 0 0;
+}
+
+footer svg.svg-inline--fa:hover {
+  color: #1ebba3;
+}
+
+hr.soket {
+  width: 100%;
+  border-top: .2rem solid #666b71;
+  margin-top: 3rem;
+}
+
+
+@media(max-width:780px) {
+
+}
